@@ -1,0 +1,10 @@
+/* comment CSS ctrl + /  */
+h1 {
+    text-align: center;
+    font-family: cursive;
+}
+#description {
+    text-align: center;
+    font-family: cursive;
+    font-style: italic;
+}
