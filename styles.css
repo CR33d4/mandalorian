@@ -1,10 +1,438 @@
 /* comment CSS ctrl + /  */
-h1 {
+#hometitle {
     text-align: center;
-    font-family: cursive;
+    font-family: "Rubik Mono One", monospace;
+    text-decoration: underline;
+    font-size: 32px;
+    padding-top: 18px;
 }
 #description {
     text-align: center;
-    font-family: cursive;
-    font-style: italic;
+    font-family: "Rubik Mono One", monospace;
+    margin-top: -20px;
+    font-size: 24px;
+    padding: 12px;
+}
+#coverimg {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -25px;
+    padding-bottom: 20px;
+    border-radius: 40px;
+}
+body.home{
+    background-image: url("https://news.yale.edu/sites/default/files/styles/featured_media/public/ynews-planet-bianary-system.jpg?itok=bhr7Bdru&c=020105f50c900e766d20dd32bacfc88b");
+    background-size: cover;
+}   
+#main {
+    margin-left: 340px;
+    margin-top: -10px;
+    margin-right: 340px;
+    border-radius: 50px;
+    background-color: burlywood;
+}
+.mainbuttons {
+    margin-top: 100px;
+    margin-left: -5px;
+    margin-right: auto;
+    font-family: "Rubik Mono One", monospace;
+    background-color: rgb(183, 148, 103);
+    color: black;
+    font-size: 20px;
+    height: 124px;
+    width: 250px;
+    border-radius: 50px;
+    outline: none;
+}
+.icons {
+    margin-top: 20px;
+    margin-bottom: -8px;
+}
+#footer {
+    text-align: center;
+    color: white;
+    margin-top: -20px;
+}
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+}
+
+a:active {
+  color: black;
+  background-color: transparent;
+}
+#quote {
+    color: black;
+    font-size: 18px;
+    background-color: rgb(183, 148, 103);
+    border-radius: 50px;
+    margin-right: 315px;
+    margin-left: 315px;
+    height: 32px;
+    padding-top: 14px;
+    padding-left: 12px;
+    font-family: "Courier", monospace;
+    font-weight: 4px;
+}
+quote:link {
+    color: black;
+}
+/*---BIO BLURB---*/
+body.bio {
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5ce331b47a39b9000198fffa/1695015679045-YJ90V9MNTVZZEU6WOJJF/Brett+Northcutt+The+Mines+of+Mandalore-glazed-intensity10-render4-V1.jpg");
+    background-size: cover;
+}
+#biomain {
+    margin-left: 340px;
+    margin-top: -10px;
+    margin-right: 340px;
+    border-radius: 50px;
+    background-color: rgb(18, 37, 18);
+}
+#biotitle {
+    text-align: center;
+    color: white;
+    font-family: "Rubik Mono One", monospace;
+    text-decoration: underline;
+    font-size: 32px;
+    padding-top: 18px;
+}
+#mandogro {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    padding-bottom: 20px;
+    border-radius: 40px;
+}
+.nevbuttons {
+    margin-top: 100px;
+    margin-left: -5px;
+    margin-right: auto;
+    font-family: "Rubik Mono One", monospace;
+    background-color: rgb(18, 37, 18);
+    color: white;
+    font-size: 20px;
+    height: 124px;
+    width: 250px;
+    border-radius: 50px;
+    outline: none;
+}
+#biodesc {
+    color: white;
+    text-indent: 50px;
+    font-size: 18px;
+    background-color: rgb(18, 37, 18);
+    border-radius: 50px;
+    margin-right: 75px;
+    margin-left: 75px;
+    margin-top: 50px;
+    height: 195px;
+    padding-top: 14px;
+    font-family: "Courier", monospace;
+    font-weight: 8px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+/*---REAL LIFE---*/
+body.rl {
+    background-image: url("https://static1.srcdn.com/wordpress/wp-content/uploads/2017/12/Rogue-One-Mustafar.jpg");
+    background-size: fill;
+}
+#rlmain {
+    margin-left: 340px;
+    margin-top: -10px;
+    margin-right: 340px;
+    border-radius: 50px;
+    background-color: rgb(165, 68, 68);
+}
+#rltitle {
+    text-align: center;
+    color: white;
+    font-family: "Rubik Mono One", monospace;
+    text-decoration: underline;
+    font-size: 32px;
+    padding-top: 18px;
+}
+#mandogro {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    padding-bottom: 20px;
+    border-radius: 40px;
+}
+.rlbuttons {
+    margin-top: 100px;
+    margin-left: -5px;
+    margin-right: auto;
+    padding-right: 5px;
+    font-family: "Rubik Mono One", monospace;
+    background-color: rgb(165, 68, 68);
+    color: white;
+    font-size: 20px;
+    height: 124px;
+    width: 250px;
+    border-radius: 50px;
+    outline: none;
+}
+#rldesc {
+    color: white;
+    text-indent: 50px;
+    font-size: 19px;
+    background-color: rgb(165, 68, 68);
+    border-radius: 50px;
+    margin-right: 75px;
+    margin-left: 75px;
+    margin-top: 50px;
+    height: 210px;
+    padding-top: 14px;
+    font-family: "Courier", monospace;
+    font-weight: 8px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+#rllist {
+    text-align: left;
+    color: white;
+    background-color: rgb(165, 68, 68);
+    border-radius: 50px;
+    margin-left: 385px;
+    margin-right: 385px;
+    margin-top: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 18px;
+    font-family: "Courier", monospace;
+    font-weight: 8px;
+    font-size: 22px;
+}
+#photo1 {
+    margin-left: 40px;
+    margin-right: 940px;
+    padding: 20px;
+    border-radius: 40px;
+    background-color: rgb(165, 68, 68);
+    margin-top: -350px;
+}
+#phot1 {
+    border-radius: 20px;
+}
+#photo2 {
+    margin-left: 940px;
+    margin-right: 55px;
+    padding: 20px;
+    border-radius: 40px;
+    background-color: rgb(165, 68, 68);
+    margin-top: -320px;
+}
+#phot2 {
+    border-radius: 20px;
+}
+/*---LINKS---*/
+body.links {
+    background-image: url("https://img.goodfon.com/original/1366x768/c/c6/coruscant-star-wars-skyscraper.jpg");
+    background-size: cover;
+}
+#linksmain {
+    margin-left: 340px;
+    margin-top: -10px;
+    margin-right: 340px;
+    border-radius: 50px;
+    background-color: rgb(57, 57, 161);
+}
+#linkstitle {
+    text-align: center;
+    color: white;
+    font-family: "Rubik Mono One", monospace;
+    text-decoration: underline;
+    font-size: 32px;
+    padding-top: 18px;
+}
+#mandogro {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    padding-bottom: 20px;
+    border-radius: 40px;
+}
+.linksbuttons {
+    margin-top: 100px;
+    margin-left: -5px;
+    margin-right: auto;
+    padding-right: 5px;
+    font-family: "Rubik Mono One", monospace;
+    background-color: rgb(57, 57, 161);
+    color: white;
+    font-size: 20px;
+    height: 124px;
+    width: 250px;
+    border-radius: 50px;
+    outline: none;
+}
+#videos {
+    background-color: rgb(57, 57, 161);
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding: 15px;
+    text-align: center
+}
+
+/*---CONTACT AND PICS---*/
+body.contact {
+    background-image: url("https://pbs.twimg.com/media/E-CKzefUcAQowwl?format=jpg&name=4096x4096");
+    background-size: cover;
+}
+#contactmain {
+    margin-left: 340px;
+    margin-top: -10px;
+    margin-right: 340px;
+    border-radius: 50px;
+    background-color: rgb(68, 42, 42);
+}
+#contacttitle {
+    text-align: center;
+    color: white;
+    font-family: "Rubik Mono One", monospace;
+    text-decoration: underline;
+    font-size: 30px;
+    padding-top: 18px;
+}
+#mandogro {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    padding-bottom: 20px;
+    border-radius: 40px;
+}
+.contactbuttons {
+    margin-top: 100px;
+    margin-left: -5px;
+    margin-right: auto;
+    padding-right: 5px;
+    font-family: "Rubik Mono One", monospace;
+    background-color:rgb(68, 42, 42);
+    color: white;
+    font-size: 20px;
+    height: 124px;
+    width: 250px;
+    border-radius: 50px;
+    outline: none;
+}
+#address {
+    text-align: center;
+    color: white;
+    background-color: rgb(68, 42, 42);
+    margin-left: 420px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-right: 420px;
+    margin-top: 35px;
+    border-radius: 50px;
+}
+#coninfo {
+    text-align: center;
+    font-family: "Rubik Mono One", monospace;
+}
+#photos1 {
+    margin-left: 50px;
+    margin-right: 944px;
+    padding: 20px;
+    border-radius: 40px;
+    background-color: rgb(68, 42, 42);
+    margin-top: -290px;
+}
+#phots1 {
+    border-radius: 20px;
+}
+#photos2 {
+    margin-left: 940px;
+    margin-right: 55px;
+    padding: 20px;
+    border-radius: 40px;
+    background-color: rgb(68, 42, 42);
+    margin-top: -315px;
+}
+#phots2 {
+    border-radius: 20px;
+}
+body.face {
+    background-image: url("https://cdna.artstation.com/p/assets/images/images/004/545/738/large/christophe-degraeve-4.jpg?1484486168");
+    background-size: cover;
+}
+#linksmain {
+    margin-left: 340px;
+    margin-top: -10px;
+    margin-right: 340px;
+    border-radius: 50px;
+    background-color: rgb(57, 57, 161);
+}
+
+
+#facetitle {
+    text-align: center;
+    color: white;
+    font-family: "Rubik Mono One", monospace;
+    text-decoration: underline;
+    font-size: 32px;
+    padding-top: 18px;
+}
+#mandogro {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    padding-bottom: 20px;
+    border-radius: 40px;
+}
+.facebuttons {
+    margin-top: 100px;
+    margin-left: -5px;
+    margin-right: auto;
+    padding-right: 5px;
+    font-family: "Rubik Mono One", monospace;
+    background-color: rgb(68, 42, 42);
+    color: white;
+    font-size: 20px;
+    height: 124px;
+    width: 250px;
+    border-radius: 50px;
+    outline: none;
+}
+#facereveal {
+    background-color: rgb(68, 42, 42);
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-left: 115px;
+    margin-right: 115px;
+    padding: 15px;
+    text-align: center;
+}
+#face1 {
+    border-radius: 20px;
+    border: 5px solid #555;
+
+}
+#face2 {
+    border-radius: 20px;
+    border: 5px solid #555;
+
 }

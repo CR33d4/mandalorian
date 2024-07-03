@@ -3,10 +3,14 @@
     <head>
         <meta charset="utf-8"> <!-- more modern then <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> -->  
         <title>The Mandalorian Homepage</title>
+        <link rel="icon" type="image/x-icon" href="https://static.thenounproject.com/png/5581227-200.png">
         <meta name="description" content="TODO Description. This profile-page is a homage to the earliest web designers who were working without CSS & JS which were only invented in 1994/5."/> <!-- Meta description tips: https://www.coderseo.com/meta-description-generator -->
         <meta name="robots" content="noindex">
         <link rel="icon" href="ninety-five_files/favicon.ico" type="image/x-icon"> 
         <link href="styles.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
         <base target="_blank"> <!-- only keep with footer script excluding internal links -->
 
             <!-- TODO uncomment below once created New File called styles.css 
@@ -18,76 +22,40 @@
 
 
     </head>
-    <body>
-        <h1>The Mandalorian</h1>
+    <body class="home">
+        <div id="main">
+        <h1 id="hometitle">The Mandalorian</h1>
         <h2 id="description">The Galaxy's Most Feared Bounty Hunter</h2>
-        <img src="https://www.komar.de/media/catalog/product/cache/5/image/9df78eab33525d08d6e5fb8d27136e95/import/var-www-share-shop-live-src-media-import-iadx4-095-the-mandalorian-gunslingers-web.jpg" height="200">
+        <img src="https://static.wikia.nocookie.net/1966ca91-ac72-46ed-bdab-4ba92dc0a66c/thumbnail-down/width/1280/height/720" height="200" id="coverimg" alt="The Mandalorian">
+        </div>
+        <h2 id="quote"><em><a href="face.html">"No living thing has ever seen me without my helmet"</a></em></h2>
+
+        <a href="bio.html"><button type="button" class="mainbuttons"style="position: absolute; left: 50px; top: -50px">Hyperjump to Mandalore (Bio Blurb)</button></a>
+
+        <a href="links.html"><button type="button" class="mainbuttons" style="position: absolute; left: 50px; top: 140px">Hyperjump to Coruscant (Extra Links)</button></a>
+
+        <a href="rl.html"><button type="button" class="mainbuttons" style="position: absolute; right: 50px; top: -50px">Hyperjump to Nevarro (Real Life)</button></a>
+
+        <a href="contact.html"><button type="button" class="mainbuttons" style="position: absolute; right: 50px; top: 140px">Hyperjump to Sargon (Contact Info)</button></a>
         <hr>
-        <h2><em>"No living thing has seen me without my helmet"</em></h2>
-        <hr>
-        <h2>
-        <ul>
-            <li><a href="http://www.geom.uiuc.edu/~munzner/">Tamara's original page</a></li>
-            <li><a href="http://www-graphics.stanford.edu/~munzner/">dark mode alternative</a></li>
-        </ul>
-        <hr>
-        Bio Blurb</h2>
-        <p> The Mandalorian (Din Djarin) is a widely known and extremely feared bounty hunter. He grew up following the way of the mandalore, and still follows the culture's strict rules. He is seen as cold and ruthless and will do anything to get his job done and to get paid. That is until he comes across Grogu, and grows to have a deep connection with him. He begins to protect Grogu and love him like his own child. By the end, Grogu is given to Luke Skywalker to be trained as a jedi, as a loving gesture Djarin talks off his helmet to show Grogu his real face before saying goodbye. </p>
-        <!-- Bio template: (S)he received a blah in Y from place in 20XX. (s)he was the "blah" and was one of the authors of the nationwide expansion of Corp Inc. Recently, (s)he has been working on Z. -->
-        <hr>
-        <h2>Links</h2>
-        Some creative interpretations:
-        <ul>
-        <li> <a href="https://www.starwars.com/databank/the-mandalorian">More about the Mandalorian </a> (external link)</li>
-        </ul>
-        <hr>
-        <h2>Real Life</h2>
-        <ol>
-            <li>
-                <b>Skills</b>
-                <ul>
-                    <li> Great with People</li>
-                    <li> Survival Skills</li>
-                    <li> Stealthy / Deadly</li>
-                </ul>
-            </li>
-            <li><b>Affiliations</b>
-            <ul>
-                <li> Bounty Hunter's Guild</li>
-                <li> The Mandalore </li>
-            </ul>
-            </li>
-        </ol>
-        <hr>
-        <address>
-        <h2>
-        Contact Info
-        </h2>
-        <pre><!-- preformatted text, browser displays line breaks like text editor -->
-            <i>Din Djarin
-            570 Skywalker Lane
-            Aq Vetina, The Outer Rim
-            Email - DinDjarin123@gmail.com</i>
-        </pre>
-        </address>
         <!-- Social Logos. Bottom two from httpsgetdrawings.com/pixelated-icons -->
-        <hr>
-        <a href="https://github.com/"><img src="https://w4.rner.me/index_files/github.png" height="50" alt="GitHub"></a>
-        <a rev="Subdocument" href="https://linkedin.com/in/"><img src="https://w4.rner.me/index_files/linkedin.png" height="50" alt="LinkedIn"></a>
-        <a href="https://www.fediverse.to/"><img src="https://w4.rner.me/index_files/fediverse.png" height="50" alt="Fediverse"></a>
+         <div id="footer">
+        <a href="https://github.com/"><img src="https://w4.rner.me/index_files/github.png" height="35" alt="GitHub" class="icons"></a>
+        <a rev="Subdocument" href="https://linkedin.com/in/"><img src="https://w4.rner.me/index_files/linkedin.png" height="35" alt="LinkedIn" class="icons"></a>
+        <a href="https://www.fediverse.to/"><img src="https://w4.rner.me/index_files/fediverse.png" height="35" alt="Fediverse" class="icons"></a>
         <hr>
         <br>
         <small> 
-        Last modified: Mon Jun 25 10:11:00 pm 2024  <!-- TODO update -->
+        Last modified: Wed July 3 2:57:00 pm 2024  <!-- TODO update -->
             <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="/">this website</a> © 2023 is based on w4rner's <a
                 href="http://w4.rner.me/ninety-five.html">
                 'Ninety Five' template</a> after <a href="http://www.geom.uiuc.edu/~munzner/">Tamara Munzner's</a> and therefore is licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
             <i> "Nanos Gigantum Humeris Insidentes" </i>
         </small>
         <br>
-
+        
         </address>
-
+        </div>
         <!-- <div id="footer"></div> -->
 
         <!-- BODY END -->
